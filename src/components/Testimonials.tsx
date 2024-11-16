@@ -43,13 +43,13 @@ const Testimonials = () => {
   };
   
   return (
-    <>
+    
       <section className="testimonialBg py-16">
         <div className="container-custom">
           <div className="testimonialHeading text-white">
             <h5 className="text-xl font-bold text-center ">Clients Feedbacks</h5>
             <h2 className="text-5xl uppercase font-extrabold text-center mb-10">
-              What's Our Clients Say About{" "}
+              What&#39;s Our Clients Say About{" "}
               <span className="bg-orange-500 px-2 text-white">Catalyst</span>
             </h2>
           </div>
@@ -193,7 +193,7 @@ const Testimonials = () => {
           </div>
         </div>
       </section>
-    </>
+    
   );
 };
 

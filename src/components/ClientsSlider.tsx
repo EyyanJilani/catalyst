@@ -17,7 +17,7 @@ import client11 from "../images/clientsLogos/client11.png";
 
 
 const ClientsSlider = () => {
-    var settings = {
+    const settings = {
         autoplay: true,
         autoplaySpeed: 0,
         speed: 5000,
@@ -29,7 +29,7 @@ const ClientsSlider = () => {
         pauseOnHover: false,
     };
     return (
-        <>
+        
             <section className="py-20">
                 <div>
                     <h2 className="text-5xl uppercase font-extrabold text-center mb-10">Our <span className="bg-blue-950 px-2 text-white">Clients</span></h2>
@@ -70,7 +70,7 @@ const ClientsSlider = () => {
                     </div>
                 </Slider>
             </section>
-        </>
+    
     )
 }
 

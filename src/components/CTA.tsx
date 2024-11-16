@@ -4,7 +4,7 @@ import designElement from "../images/designElement.png";
 
 const CTA = () => {
   return (
-    <>
+    
       <section className="py-20 relative">
         <div className="container-custom">
           <span>
@@ -37,7 +37,7 @@ const CTA = () => {
         </div>
         
       </section>
-    </>
+    
   );
 };
 

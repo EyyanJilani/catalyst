@@ -21,7 +21,7 @@ const Services = () => {
   }, []);
 
   return (
-    <>
+    
       <section className="servicesSec py-20 relative">
         <div className="container-custom">
           <div className="flex items-center gap-5 ">
@@ -43,9 +43,9 @@ const Services = () => {
                   Empowering Solutions We Deliver
                 </h5>
                 <h2 className="text-5xl pt-5 leading-tight">
-                  Powering Pakistan's Financial Markets with Cutting-Edge
+                  Powering Pakistan&#39;s Financial Markets with Cutting-Edge
                   Trading SolutionsSetting the Standard in Fintech Innovation
-                  for Pakistan’s Markets{" "}
+                  for Pakistan&#39;s Markets{" "}
                 </h2>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-    </>
+    
   );
 };
 

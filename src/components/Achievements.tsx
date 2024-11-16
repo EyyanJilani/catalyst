@@ -3,7 +3,7 @@ import awardJS from "../images/awardJS.png";
 
 const Achievements = () => {
   return (
-    <>
+    
       <section className="bgAchievement py-20 bg-cover bg-no-repeat">
         <div className="container-custom">
           <div className="flex items-center gap-10">
@@ -33,7 +33,7 @@ const Achievements = () => {
                   <div className="stats w-1/3 border-r border-orange-400">
                     <h2 className="text-9xl font-bold text-orange-500">24+</h2>
                     <p className="text-xl w-3/4">
-                      Year's Experience in Digital Solutions
+                      Year&#39;s Experience in Digital Solutions
                     </p>
                   </div>
                   <div className="stats w-1/3">
@@ -46,7 +46,7 @@ const Achievements = () => {
           </div>
         </div>
       </section>
-    </>
+    
   );
 };
 
