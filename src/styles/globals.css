@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-background: #000;
+  --primary-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Raleway", sans-serif;
+}
+.container-custom {
+  width: 85vw;
+  margin: 0 auto;
+}
+/* ====== BTN STYLE  ====== */
+.menuLink {
+  position: relative;
+}
+
+.menuLink::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -0.25rem;
+  right: 0;
+  transition: right 0.4s, width 0.4s, left 0.4s;
+}
+
+.menuLink:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+/* ---- BG IMAGES HOME ---- */
+.bgSlider1 {
+  background-image: url(../images/BannerImage1.png);
+}
+.bgSlider2 {
+  background-image: url(../images/BannerImage2.png);
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #ffffff;
+}
+.bgAchievement {
+  background-image: url(../images/darkBg.png);
+}
+.testimonialBg {
+  background-image: url(../images/testimonialsBg.png);
+}
+
+/* -----  */
+button.custom-arrow.left-arrow {
+  position: absolute;
+  left: 17rem;
+  top: 50%;
+}
+button.custom-arrow.right-arrow {
+  position: absolute;
+  right: 17rem;
+  top: 50%;
+}
+.testimonialBg .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 9px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.75;
+  color: #ffffff;
+}
+/* -----  */
+
+/* ----------- */
+.opacityAnim {
+  animation: opacityAnimation 4s infinite;
+}
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+/* ----------- */
+
